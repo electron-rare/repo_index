@@ -1,0 +1,22 @@
+{
+  "schema_version": "repo_state.v1",
+  "generated_at_utc": "2026-02-21T02:27:13Z",
+  "repo": "RTC_BL_PHONE",
+  "repo_url": "https://github.com/electron-rare/RTC_BL_PHONE.git",
+  "branch": "main",
+  "head": "52e2694be4b5f1d03b353f3497a8f3ba3cb75146",
+  "head_date": "2026-02-21T03:26:01+01:00",
+  "head_subject": "Merge pull request #22 from electron-rare/codex/repo-state-rtc",
+  "project_kind": "firmware_embedded",
+  "pivot_changes": [
+    {
+      "path": "(none)",
+      "tags": [
+        "general_change"
+      ]
+    }
+  ],
+  "impact_gates": [
+    "general_change"
+  ]
+}

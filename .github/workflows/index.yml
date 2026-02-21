@@ -1,0 +1,81 @@
+name: Repo Index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout index repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Clone repos and generate states
+        run: |
+          rm -rf work index
+          mkdir -p work index
+          cd work
+          git clone --depth=50 https://github.com/electron-rare/Kill_LIFE.git
+          git clone --depth=50 https://github.com/electron-rare/RTC_BL_PHONE.git
+          git clone --depth=50 https://github.com/electron-rare/le-mystere-professeur-zacus.git
+
+          for r in Kill_LIFE RTC_BL_PHONE le-mystere-professeur-zacus; do
+            cd "$r"
+            python3 tools/repo_state/collect.py --repo-name "$r"
+            cp -f docs/repo_state.json "../../index/${r}.json"
+            cp -f docs/REPO_STATE.md "../../index/${r}.md"
+            cd ..
+          done
+
+      - name: Build summary
+        run: |
+          python - << 'PY'
+          import glob
+          import json
+          import pathlib
+
+          out = ["# Repo Index", "", "Generated from docs/repo_state.json for each repository.", ""]
+          for fp in sorted(glob.glob("index/*.json")):
+              d = json.load(open(fp, "r", encoding="utf-8"))
+              out.append(f"## {d['repo']}")
+              out.append(f"- Branch: `{d.get('branch','')}`")
+              out.append(f"- HEAD: `{d.get('head','')}`")
+              out.append(f"- Date: `{d.get('head_date','')}`")
+              out.append(f"- Kind: `{d.get('project_kind','')}`")
+              out.append(f"- Impact gates: `{', '.join(d.get('impact_gates', []))}`")
+              out.append("")
+          pathlib.Path("index/summary.md").write_text("\n".join(out), encoding="utf-8")
+          PY
+
+      - name: Commit index files (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -z "$(git status --porcelain -- index)" ]]; then
+            echo "No index changes to commit"
+          else
+            git add index
+            git commit -m "chore(index): refresh repo states [skip ci]"
+            git push
+          fi
+
+      - name: Upload index artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: repo-index
+          path: index/*

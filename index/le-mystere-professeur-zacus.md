@@ -1,11 +1,11 @@
 <!-- REPO_STATE:v1 -->
 Repo: le-mystere-professeur-zacus
 Branch: main
-HEAD: e035498a740e5ff0288d80ec0d16c10f1b5236f9
-HeadDate: 2026-02-21T03:24:48+01:00
-HeadSubject: Merge pull request #104 from electron-rare/codex/repo-state-zacus
+HEAD: a552072c02eaf81f6357527c93f6cb9768dbc4e5
+HeadDate: 2026-02-21T21:29:51+01:00
+HeadSubject: chore: consolidate branch workflow to main-only policy
 RepoURL: https://github.com/electron-rare/le-mystere-professeur-zacus.git
 ProjectKind: hardware_firmware_hybrid
-PivotChanges: [{"path": "(none)", "tags": ["general_change"]}]
-ImpactGates: general_change
-GeneratedAtUTC: 2026-02-21T18:08:00Z
+PivotChanges: [{"path": "hardware/firmware/.github/workflows/firmware-ci.yml", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/docs/AGENT_TODO.md", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/docs/INDEX.md", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/docs/SPRINT_RECOMMENDATIONS.md", "tags": ["firmware_build_test", "hardware_validation"]}]
+ImpactGates: firmware_build_test, hardware_validation
+GeneratedAtUTC: 2026-02-22T00:23:30Z

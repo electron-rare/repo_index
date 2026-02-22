@@ -4,21 +4,21 @@ Generated from docs/repo_state.json for each repository.
 
 ## Kill_LIFE
 - Branch: `main`
-- HEAD: `fe0567e6a6e89553f595229fb7b7545806a6beec`
-- Date: `2026-02-21T03:24:29+01:00`
+- HEAD: `f2669ba44f0178c07cc10ac51a3cbde36f0c0a8b`
+- Date: `2026-02-21T20:44:31+01:00`
 - Kind: `general`
 - Impact gates: `general_change`
 
 ## RTC_BL_PHONE
 - Branch: `main`
-- HEAD: `52e2694be4b5f1d03b353f3497a8f3ba3cb75146`
-- Date: `2026-02-21T03:26:01+01:00`
+- HEAD: `f20b12e77ae72b2cb9ad0f9ed9e0e412b259f3f8`
+- Date: `2026-02-22T01:10:21+01:00`
 - Kind: `firmware_embedded`
-- Impact gates: `general_change`
+- Impact gates: `firmware_build_test`
 
 ## le-mystere-professeur-zacus
 - Branch: `main`
-- HEAD: `e035498a740e5ff0288d80ec0d16c10f1b5236f9`
-- Date: `2026-02-21T03:24:48+01:00`
+- HEAD: `a552072c02eaf81f6357527c93f6cb9768dbc4e5`
+- Date: `2026-02-21T21:29:51+01:00`
 - Kind: `hardware_firmware_hybrid`
-- Impact gates: `general_change`
+- Impact gates: `firmware_build_test, hardware_validation`

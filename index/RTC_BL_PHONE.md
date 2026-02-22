@@ -1,11 +1,11 @@
 <!-- REPO_STATE:v1 -->
 Repo: RTC_BL_PHONE
 Branch: main
-HEAD: 52e2694be4b5f1d03b353f3497a8f3ba3cb75146
-HeadDate: 2026-02-21T03:26:01+01:00
-HeadSubject: Merge pull request #22 from electron-rare/codex/repo-state-rtc
+HEAD: f20b12e77ae72b2cb9ad0f9ed9e0e412b259f3f8
+HeadDate: 2026-02-22T01:10:21+01:00
+HeadSubject: fix: avoid bt+wifi modem sleep crash and expose wifi link info
 RepoURL: https://github.com/electron-rare/RTC_BL_PHONE.git
 ProjectKind: firmware_embedded
-PivotChanges: [{"path": "(none)", "tags": ["general_change"]}]
-ImpactGates: general_change
-GeneratedAtUTC: 2026-02-21T18:08:00Z
+PivotChanges: [{"path": "src/wifi/WifiManager.cpp", "tags": ["firmware_build_test"]}, {"path": "src/wifi/WifiManager.h", "tags": ["firmware_build_test"]}]
+ImpactGates: firmware_build_test
+GeneratedAtUTC: 2026-02-22T00:23:30Z

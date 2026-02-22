@@ -1,45 +1,46 @@
 {
   "schema_version": "repo_state.v1",
-  "generated_at_utc": "2026-02-22T12:08:41Z",
+  "generated_at_utc": "2026-02-22T18:07:49Z",
   "repo": "le-mystere-professeur-zacus",
   "repo_url": "https://github.com/electron-rare/le-mystere-professeur-zacus.git",
   "branch": "main",
-  "head": "a552072c02eaf81f6357527c93f6cb9768dbc4e5",
-  "head_date": "2026-02-21T21:29:51+01:00",
-  "head_subject": "chore: consolidate branch workflow to main-only policy",
+  "head": "ac63bf273454d91d47a0bdb7723ae79cd2dc4987",
+  "head_date": "2026-02-22T14:51:12+01:00",
+  "head_subject": "feat(webui): polish story designer nodes and links interactions",
   "project_kind": "hardware_firmware_hybrid",
   "pivot_changes": [
     {
-      "path": "hardware/firmware/.github/workflows/firmware-ci.yml",
+      "path": "fronted dev web UI/README.md",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/docs/AGENT_TODO.md",
+      "path": "fronted dev web UI/docs/webui_dual_mode_e2e.md",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/docs/INDEX.md",
+      "path": "fronted dev web UI/src/App.tsx",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/docs/SPRINT_RECOMMENDATIONS.md",
+      "path": "fronted dev web UI/src/components/LiveOrchestrator.tsx",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
+      ]
+    },
+    {
+      "path": "fronted dev web UI/src/components/ScenarioSelector.tsx",
+      "tags": [
+        "general_change"
       ]
     }
   ],
   "impact_gates": [
-    "firmware_build_test",
-    "hardware_validation"
+    "general_change"
   ]
 }

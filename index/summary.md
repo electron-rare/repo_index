@@ -11,10 +11,10 @@ Generated from docs/repo_state.json for each repository.
 
 ## RTC_BL_PHONE
 - Branch: `main`
-- HEAD: `f20b12e77ae72b2cb9ad0f9ed9e0e412b259f3f8`
-- Date: `2026-02-22T01:10:21+01:00`
+- HEAD: `7da6ea37e74708fbca5e34bd99c166f33570def5`
+- Date: `2026-02-23T11:54:09+01:00`
 - Kind: `firmware_embedded`
-- Impact gates: `firmware_build_test`
+- Impact gates: `docs_specs_sync, general_change`
 
 ## le-mystere-professeur-zacus
 - Branch: `main`

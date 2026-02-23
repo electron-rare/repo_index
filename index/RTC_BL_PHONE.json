@@ -1,28 +1,47 @@
 {
   "schema_version": "repo_state.v1",
-  "generated_at_utc": "2026-02-23T06:26:28Z",
+  "generated_at_utc": "2026-02-23T12:14:39Z",
   "repo": "RTC_BL_PHONE",
   "repo_url": "https://github.com/electron-rare/RTC_BL_PHONE.git",
   "branch": "main",
-  "head": "f20b12e77ae72b2cb9ad0f9ed9e0e412b259f3f8",
-  "head_date": "2026-02-22T01:10:21+01:00",
-  "head_subject": "fix: avoid bt+wifi modem sleep crash and expose wifi link info",
+  "head": "7da6ea37e74708fbca5e34bd99c166f33570def5",
+  "head_date": "2026-02-23T11:54:09+01:00",
+  "head_subject": "feat: Enhance BluetoothManager with audio bridge and auto-reconnect features",
   "project_kind": "firmware_embedded",
   "pivot_changes": [
     {
-      "path": "src/wifi/WifiManager.cpp",
+      "path": "README.md",
       "tags": [
-        "firmware_build_test"
+        "docs_specs_sync"
       ]
     },
     {
-      "path": "src/wifi/WifiManager.h",
+      "path": "data/webui/index.html",
       "tags": [
-        "firmware_build_test"
+        "general_change"
+      ]
+    },
+    {
+      "path": "data/webui/script.js",
+      "tags": [
+        "general_change"
+      ]
+    },
+    {
+      "path": "docs/AGENT_TODO.md",
+      "tags": [
+        "docs_specs_sync"
+      ]
+    },
+    {
+      "path": "docs/SPECS_STATE.md",
+      "tags": [
+        "docs_specs_sync"
       ]
     }
   ],
   "impact_gates": [
-    "firmware_build_test"
+    "docs_specs_sync",
+    "general_change"
   ]
 }

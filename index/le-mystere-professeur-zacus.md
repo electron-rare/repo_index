@@ -1,11 +1,11 @@
 <!-- REPO_STATE:v1 -->
 Repo: le-mystere-professeur-zacus
 Branch: main
-HEAD: ac63bf273454d91d47a0bdb7723ae79cd2dc4987
-HeadDate: 2026-02-22T14:51:12+01:00
-HeadSubject: feat(webui): polish story designer nodes and links interactions
+HEAD: 5dcd820221ef3a9b1b29e570db0a5d0e9f0aa401
+HeadDate: 2026-02-23T00:54:18+01:00
+HeadSubject: feat: Enhance stress test scenarios and add new validation tools
 RepoURL: https://github.com/electron-rare/le-mystere-professeur-zacus.git
 ProjectKind: hardware_firmware_hybrid
-PivotChanges: [{"path": "fronted dev web UI/README.md", "tags": ["general_change"]}, {"path": "fronted dev web UI/docs/webui_dual_mode_e2e.md", "tags": ["general_change"]}, {"path": "fronted dev web UI/src/App.tsx", "tags": ["general_change"]}, {"path": "fronted dev web UI/src/components/LiveOrchestrator.tsx", "tags": ["general_change"]}, {"path": "fronted dev web UI/src/components/ScenarioSelector.tsx", "tags": ["general_change"]}]
-ImpactGates: general_change
-GeneratedAtUTC: 2026-02-22T18:07:49Z
+PivotChanges: [{"path": ".gitignore", "tags": ["general_change"]}, {"path": "hardware/firmware/.gitignore", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/AGENTS.md", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/Makefile", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/data/scenarios/data/default_scenario.json", "tags": ["firmware_build_test", "hardware_validation"]}]
+ImpactGates: firmware_build_test, general_change, hardware_validation
+GeneratedAtUTC: 2026-02-23T00:24:09Z

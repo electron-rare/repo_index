@@ -18,7 +18,7 @@ Generated from docs/repo_state.json for each repository.
 
 ## le-mystere-professeur-zacus
 - Branch: `main`
-- HEAD: `ac63bf273454d91d47a0bdb7723ae79cd2dc4987`
-- Date: `2026-02-22T14:51:12+01:00`
+- HEAD: `5dcd820221ef3a9b1b29e570db0a5d0e9f0aa401`
+- Date: `2026-02-23T00:54:18+01:00`
 - Kind: `hardware_firmware_hybrid`
-- Impact gates: `general_change`
+- Impact gates: `firmware_build_test, general_change, hardware_validation`

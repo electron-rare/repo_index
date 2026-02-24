@@ -1,44 +1,22 @@
 {
   "schema_version": "repo_state.v1",
-  "generated_at_utc": "2026-02-24T06:23:28Z",
+  "generated_at_utc": "2026-02-24T12:15:50Z",
   "repo": "le-mystere-professeur-zacus",
   "repo_url": "https://github.com/electron-rare/le-mystere-professeur-zacus.git",
   "branch": "main",
-  "head": "8e57e0ecb0c54055fecffa9dd591a41d5110729c",
-  "head_date": "2026-02-23T19:49:06+01:00",
-  "head_subject": "feat: Refactor button management with RTOS support and enhance scenario button handling",
+  "head": "e5c37af552c2bf26425a56c45d709ead4493bb2b",
+  "head_date": "2026-02-24T09:20:45+01:00",
+  "head_subject": "chore: untrack Voicebox.app app bundle",
   "project_kind": "hardware_firmware_hybrid",
   "pivot_changes": [
     {
-      "path": "hardware/firmware/boards/freenove_esp32_s3_wroom_n16r8.json",
+      "path": ".gitignore",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/docs/AGENT_TODO.md",
-      "tags": [
-        "firmware_build_test",
-        "hardware_validation"
-      ]
-    },
-    {
-      "path": "hardware/firmware/docs/RC_FINAL_BOARD.md",
-      "tags": [
-        "firmware_build_test",
-        "hardware_validation"
-      ]
-    },
-    {
-      "path": "hardware/firmware/hardware/firmware/ui_freenove_allinone/RC_FINAL_BOARD.md",
-      "tags": [
-        "firmware_build_test",
-        "hardware_validation"
-      ]
-    },
-    {
-      "path": "hardware/firmware/hardware/firmware/ui_freenove_allinone/include/button_manager.h",
+      "path": "hardware/firmware/.gitignore",
       "tags": [
         "firmware_build_test",
         "hardware_validation"
@@ -47,6 +25,7 @@
   ],
   "impact_gates": [
     "firmware_build_test",
+    "general_change",
     "hardware_validation"
   ]
 }

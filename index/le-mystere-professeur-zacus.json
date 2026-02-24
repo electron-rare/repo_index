@@ -1,14 +1,21 @@
 {
   "schema_version": "repo_state.v1",
-  "generated_at_utc": "2026-02-23T18:22:33Z",
+  "generated_at_utc": "2026-02-24T00:23:40Z",
   "repo": "le-mystere-professeur-zacus",
   "repo_url": "https://github.com/electron-rare/le-mystere-professeur-zacus.git",
   "branch": "main",
-  "head": "a2886f801cbd467b69bc04d5e48a8c90a5192b3c",
-  "head_date": "2026-02-23T18:29:11+01:00",
-  "head_subject": "test: strengthen LA music verification generator",
+  "head": "8e57e0ecb0c54055fecffa9dd591a41d5110729c",
+  "head_date": "2026-02-23T19:49:06+01:00",
+  "head_subject": "feat: Refactor button management with RTOS support and enhance scenario button handling",
   "project_kind": "hardware_firmware_hybrid",
   "pivot_changes": [
+    {
+      "path": "hardware/firmware/boards/freenove_esp32_s3_wroom_n16r8.json",
+      "tags": [
+        "firmware_build_test",
+        "hardware_validation"
+      ]
+    },
     {
       "path": "hardware/firmware/docs/AGENT_TODO.md",
       "tags": [
@@ -17,7 +24,21 @@
       ]
     },
     {
-      "path": "hardware/firmware/tools/dev/verify_la_music_chain.py",
+      "path": "hardware/firmware/docs/RC_FINAL_BOARD.md",
+      "tags": [
+        "firmware_build_test",
+        "hardware_validation"
+      ]
+    },
+    {
+      "path": "hardware/firmware/hardware/firmware/ui_freenove_allinone/RC_FINAL_BOARD.md",
+      "tags": [
+        "firmware_build_test",
+        "hardware_validation"
+      ]
+    },
+    {
+      "path": "hardware/firmware/hardware/firmware/ui_freenove_allinone/include/button_manager.h",
       "tags": [
         "firmware_build_test",
         "hardware_validation"

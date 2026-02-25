@@ -1,52 +1,46 @@
 {
   "schema_version": "repo_state.v1",
-  "generated_at_utc": "2026-02-25T12:14:52Z",
+  "generated_at_utc": "2026-02-25T18:24:21Z",
   "repo": "le-mystere-professeur-zacus",
   "repo_url": "https://github.com/electron-rare/le-mystere-professeur-zacus.git",
   "branch": "main",
-  "head": "86c2177789b451f38e8b39b74903b152715e9f53",
-  "head_date": "2026-02-25T09:30:33+01:00",
-  "head_subject": "SIMD FX implémentation",
+  "head": "229c381c3e12307853f62b7a1dc0d547dfd74bfe",
+  "head_date": "2026-02-25T18:17:46+01:00",
+  "head_subject": "docs: importer zacus_conversation_bundle_v3 et clôturer le blocage ZIP intake (#106)",
   "project_kind": "hardware_firmware_hybrid",
   "pivot_changes": [
     {
-      "path": "hardware/firmware/data/SCENE_WIN_ETAPE.json",
+      "path": ".github/workflows/validate.yml",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/data/screens/locked.json",
+      "path": "architecture/CONVERSATION_BUNDLE_ARCHITECTURE.md",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/data/story/screens/SCENE_CAMERA_SCAN.json",
+      "path": "artifacts/pm-spec/2026-02-25/conversation-bundle-intake.md",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/data/story/screens/SCENE_FIREWORKS.json",
+      "path": "artifacts/pm-spec/2026-02-25/gameplay-promotion-note.md",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     },
     {
-      "path": "hardware/firmware/data/story/screens/SCENE_LOCKED.json",
+      "path": "artifacts/pm-spec/2026-02-25/repo-deep-analysis.md",
       "tags": [
-        "firmware_build_test",
-        "hardware_validation"
+        "general_change"
       ]
     }
   ],
   "impact_gates": [
-    "firmware_build_test",
-    "hardware_validation"
+    "general_change"
   ]
 }

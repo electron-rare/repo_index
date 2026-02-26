@@ -1,46 +1,51 @@
 {
   "schema_version": "repo_state.v1",
-  "generated_at_utc": "2026-02-25T18:24:21Z",
+  "generated_at_utc": "2026-02-26T00:22:06Z",
   "repo": "le-mystere-professeur-zacus",
   "repo_url": "https://github.com/electron-rare/le-mystere-professeur-zacus.git",
   "branch": "main",
-  "head": "229c381c3e12307853f62b7a1dc0d547dfd74bfe",
-  "head_date": "2026-02-25T18:17:46+01:00",
-  "head_subject": "docs: importer zacus_conversation_bundle_v3 et clôturer le blocage ZIP intake (#106)",
+  "head": "feed1695c6c4193eeba3fe0f8cbc56aaee694ede",
+  "head_date": "2026-02-25T20:37:51+01:00",
+  "head_subject": "feat: Clean up unused screens and improve storage management",
   "project_kind": "hardware_firmware_hybrid",
   "pivot_changes": [
     {
-      "path": ".github/workflows/validate.yml",
+      "path": "game/scenarios/scenario_reel_template.yaml",
       "tags": [
         "general_change"
       ]
     },
     {
-      "path": "architecture/CONVERSATION_BUNDLE_ARCHITECTURE.md",
+      "path": "game/scenarios/scene_editor_all.yaml",
       "tags": [
         "general_change"
       ]
     },
     {
-      "path": "artifacts/pm-spec/2026-02-25/conversation-bundle-intake.md",
+      "path": "hardware/firmware/data/scenarios/data/default_scenario.json",
       "tags": [
-        "general_change"
+        "firmware_build_test",
+        "hardware_validation"
       ]
     },
     {
-      "path": "artifacts/pm-spec/2026-02-25/gameplay-promotion-note.md",
+      "path": "hardware/firmware/data/screens/la_detector.json",
       "tags": [
-        "general_change"
+        "firmware_build_test",
+        "hardware_validation"
       ]
     },
     {
-      "path": "artifacts/pm-spec/2026-02-25/repo-deep-analysis.md",
+      "path": "hardware/firmware/data/screens/locked.json",
       "tags": [
-        "general_change"
+        "firmware_build_test",
+        "hardware_validation"
       ]
     }
   ],
   "impact_gates": [
-    "general_change"
+    "firmware_build_test",
+    "general_change",
+    "hardware_validation"
   ]
 }

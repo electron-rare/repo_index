@@ -1,11 +1,11 @@
 <!-- REPO_STATE:v1 -->
 Repo: le-mystere-professeur-zacus
 Branch: main
-HEAD: feed1695c6c4193eeba3fe0f8cbc56aaee694ede
-HeadDate: 2026-02-25T20:37:51+01:00
-HeadSubject: feat: Clean up unused screens and improve storage management
+HEAD: 458dd8123b90c533eecd0f40c6bf49797e9783d7
+HeadDate: 2026-02-26T03:42:42+01:00
+HeadSubject: [WIP] Add analysis of all README files in directories (#109)
 RepoURL: https://github.com/electron-rare/le-mystere-professeur-zacus.git
 ProjectKind: hardware_firmware_hybrid
-PivotChanges: [{"path": "game/scenarios/scenario_reel_template.yaml", "tags": ["general_change"]}, {"path": "game/scenarios/scene_editor_all.yaml", "tags": ["general_change"]}, {"path": "hardware/firmware/data/scenarios/data/default_scenario.json", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/data/screens/la_detector.json", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/data/screens/locked.json", "tags": ["firmware_build_test", "hardware_validation"]}]
+PivotChanges: [{"path": "fronted dev web UI/README.md", "tags": ["general_change"]}, {"path": "hardware/README.md", "tags": ["hardware_validation"]}, {"path": "hardware/enclosure/README.md", "tags": ["hardware_validation"]}, {"path": "hardware/firmware/docs/protocols/README.md", "tags": ["firmware_build_test", "hardware_validation"]}, {"path": "hardware/firmware/hardware/firmware/esp32_audio/README.md", "tags": ["firmware_build_test", "hardware_validation"]}]
 ImpactGates: firmware_build_test, general_change, hardware_validation
-GeneratedAtUTC: 2026-02-26T00:22:06Z
+GeneratedAtUTC: 2026-02-26T06:22:42Z

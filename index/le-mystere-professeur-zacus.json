@@ -1,41 +1,44 @@
 {
   "schema_version": "repo_state.v1",
-  "generated_at_utc": "2026-02-27T12:11:53Z",
+  "generated_at_utc": "2026-02-27T18:12:17Z",
   "repo": "le-mystere-professeur-zacus",
   "repo_url": "https://github.com/electron-rare/le-mystere-professeur-zacus.git",
   "branch": "main",
-  "head": "458dd8123b90c533eecd0f40c6bf49797e9783d7",
-  "head_date": "2026-02-26T03:42:42+01:00",
-  "head_subject": "[WIP] Add analysis of all README files in directories (#109)",
+  "head": "c0038518822af278a0bb5f53bce95d26bef7b864",
+  "head_date": "2026-02-27T18:08:48+01:00",
+  "head_subject": "feat(wifi): implement WifiCredentialsStorage for managing WiFi credentials",
   "project_kind": "hardware_firmware_hybrid",
   "pivot_changes": [
     {
-      "path": "fronted dev web UI/README.md",
-      "tags": [
-        "general_change"
-      ]
-    },
-    {
-      "path": "hardware/README.md",
-      "tags": [
-        "hardware_validation"
-      ]
-    },
-    {
-      "path": "hardware/enclosure/README.md",
-      "tags": [
-        "hardware_validation"
-      ]
-    },
-    {
-      "path": "hardware/firmware/docs/protocols/README.md",
+      "path": "hardware/firmware/.gitignore",
       "tags": [
         "firmware_build_test",
         "hardware_validation"
       ]
     },
     {
-      "path": "hardware/firmware/hardware/firmware/esp32_audio/README.md",
+      "path": "hardware/firmware/docs/AGENT_TODO.md",
+      "tags": [
+        "firmware_build_test",
+        "hardware_validation"
+      ]
+    },
+    {
+      "path": "hardware/firmware/hardware/RTC_SLIC_PHONE/.gitignore",
+      "tags": [
+        "firmware_build_test",
+        "hardware_validation"
+      ]
+    },
+    {
+      "path": "hardware/firmware/hardware/RTC_SLIC_PHONE/LICENSE",
+      "tags": [
+        "firmware_build_test",
+        "hardware_validation"
+      ]
+    },
+    {
+      "path": "hardware/firmware/hardware/RTC_SLIC_PHONE/Makefile.flash",
       "tags": [
         "firmware_build_test",
         "hardware_validation"
@@ -44,7 +47,6 @@
   ],
   "impact_gates": [
     "firmware_build_test",
-    "general_change",
     "hardware_validation"
   ]
 }
